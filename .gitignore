@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+*.log
+*.parquet
+ml_ozon_recsys_train_final_apparel_items_data/
+ml_ozon_recsys_train_final_apparel_orders_data/
+ml_ozon_recsys_train_final_apparel_tracker_data/
+ml_ozon_recsys_train_final_categories_tree/
+.idea/
