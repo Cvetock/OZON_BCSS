@@ -53,7 +53,7 @@ event_weights = {
 }
 df_interactions["weight"] = df_interactions["event_type"].map(event_weights, meta=('weight', 'float64'))
 
-# 🧮 user-item матрица
+
 print("Пример взаимодействий:")
 print(df_interactions[["user_id", "item_id", "event_type", "weight"]].head())
 
